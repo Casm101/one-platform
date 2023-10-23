@@ -1,0 +1,42 @@
+/* Main List Box styles */
+.listbox-styled {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+
+  min-width: 250px;
+
+  background: #2D3C5A;
+
+  border-radius: .5rem;
+  padding: .25rem;
+
+  /* List Box Tab styles */
+  .listbox-tab {
+
+    flex: 1;
+
+    border: none;
+    border-radius: .25rem;
+    
+    background: none;
+    color: #ffffffee;
+
+    padding: .65rem;
+    font-size: 14px;
+    text-align: left;
+
+    cursor: pointer;
+
+    &:hover {
+      background: #ffffff22;
+    }
+
+    &.--selected {
+      background: #fff;
+      color: #2D3C5A;
+
+      font-weight: 600;
+    }
+  }
+}

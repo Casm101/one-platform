@@ -1,0 +1,52 @@
+/* Main Button style */
+.button-styled {
+  display: inline-block;
+
+  border: none;
+  border-radius: .50rem;
+
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: .2s;
+
+  
+  /* Button type styles */
+  &.--primary {
+    color: white;
+    background-color: #223151;
+
+    &:hover {
+      background: #394663;
+    }
+  }
+
+  .--secondary {
+    color: #223151;
+    background-color: transparent;
+    box-shadow: #22315133 0px 0px 0px 1px inset;
+
+    &:hover {
+      background: #39466322;
+    }
+  }
+
+
+  /* Button size styles */
+  &.--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+
+  &.--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+
+  &.--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+

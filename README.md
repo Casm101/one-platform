@@ -1,81 +1,166 @@
-# Turborepo starter
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the one-platform and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** casm101, one-platform, 5stars, email
+-->
 
-This is an official starter Turborepo.
 
-## Using this example
 
-Run the following command:
+<!-- PROJECT LOGO -->
+
+<br />
+<p align="center">
+  <a href="https://github.com/casm101/one-platform">
+    <img src="public/logo/logo-v1.png" alt="Logo" width="100" height="100">
+  </a>
+
+<h3 align="center">One Platform</h3>
+
+<p align="center">
+    A singular custom built platform to unify all external vendor services.
+    <br />
+    <a href="https://github.com/casm101/one-platform"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/casm101/one-platform">View Demo</a>
+    ·
+    <a href="https://github.com/casm101/one-platform/issues">one-platformrt Bug</a>
+    ·
+    <a href="https://github.com/casm101/one-platform/issues">Request Feature</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Here's a blank template to get started:
+**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+`casm101`, `one-platform`, `5stars`, `email`
+
+### Built With
+
+* []()
+* []()
+* []()
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+* npm
 
 ```sh
-npx create-turbo@latest
+npm install npm@latest -g
 ```
 
-## What's inside?
+### Installation
 
-This Turborepo includes the following packages/apps:
+1. Clone the one-platform
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+```sh
+git clone https://github.com/casm101/one-platform.git
 ```
 
-### Develop
+2. Install NPM packages
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
+```sh
+npm install
 ```
 
-### Remote Caching
+<!-- USAGE EXAMPLES -->
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+## Usage
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-```
-cd my-turborepo
-npx turbo login
-```
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+<!-- ROADMAP -->
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+## Roadmap
 
-```
-npx turbo link
-```
+See the [open issues](https://github.com/casm101/one-platform/issues) for a list of proposed features (and known issues).
 
-## Useful Links
+<!-- CONTRIBUTING -->
 
-Learn more about the power of Turborepo:
+## Contributing
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Your Name - [@5stars](https://twitter.com/5stars) - email
+
+Project Link: [https://github.com/casm101/one-platform](https://github.com/casm101/one-platform)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+* []()
+* []()
+* []()
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png

@@ -1,0 +1,40 @@
+/* Main Tab Group styles */
+.tabgroup-styled {
+  display: flex;
+  gap: .2rem;
+
+  min-width: 400px;
+
+  background: #2D3C5A;
+
+  border-radius: .75rem;
+  padding: .25rem;
+
+  /* Tab Group Tab styles */
+  .tabgroup-tab {
+
+    flex: 1;
+
+    border: none;
+    border-radius: .5rem;
+    
+    background: none;
+    color: #ffffffee;
+
+    padding: .65rem;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    &:hover {
+      background: #ffffff22;
+    }
+
+    &.--selected {
+      background: #fff;
+      color: #2D3C5A;
+
+      font-weight: 600;
+    }
+  }
+}

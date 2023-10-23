@@ -1,0 +1,22 @@
+/* Main Chip styles */
+.chip-styled {
+  color: #fff;
+  background: #2D3C5A;
+  border-radius: 1.5rem;
+
+   /* Chip size styles */
+   &.--small {
+    font-size: 12px;
+    padding: 5px 16px;
+    }
+
+    &.--medium {
+      font-size: 14px;
+      padding: 6px 20px;
+    }
+
+    &.--large {
+      font-size: 16px;
+      padding: 7px 24px;
+    }
+}

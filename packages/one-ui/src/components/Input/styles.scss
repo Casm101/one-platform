@@ -1,0 +1,98 @@
+/* Main Input style */
+.input-styled {
+  display: inline-block;
+
+  border: 2px solid #394663;
+  border-radius: .50rem;
+  outline: none;
+
+  cursor: pointer;
+  transition: .2s;
+
+  /* Input type styles */
+  &.--primary {
+    color: white;
+    background-color: #394663;
+
+    &:hover {
+      background: #414E6A;
+      border-color: #414E6A;
+    }
+
+    &::placeholder {
+      color: #ffffff3b;
+    }
+  }
+
+  &.--secondary {
+    color: #223151;
+    box-shadow: #22315133 0px 0px 0px 1px inset;
+
+    &:hover, &:focus {
+      border-color: #414E6A;
+    }
+
+    &::placeholder {
+      color: #8190b0;
+    }
+  }
+
+
+  /* Input size styles */
+  &.--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+
+  &.--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+
+  &.--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  .pass-container {
+    display: flex;
+    gap: .5rem;
+
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+}
+
+
+/* Input Label styles */
+.input-label {
+
+  color: #394663;
+  font-weight: 600;;
+
+  /* Input size styles */
+  &.--small {
+    font-size: 12px;
+  }
+
+  &.--medium {
+    font-size: 14px;
+  }
+
+  &.--large {
+    font-size: 16px;
+  }
+}
+
+
+
