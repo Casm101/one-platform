@@ -1,0 +1,47 @@
+@import url(../../styles/global.scss);
+
+/* Main Modal style */
+
+.container {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+}
+.title {
+  margin: auto;
+}
+.title h1 {
+  color: black;
+  font-size: 17px;
+  margin: auto;
+  text-align: center;
+}
+.title h2 {
+  color: grey;
+  font-size: small;
+  text-align: center;
+}
+.data {
+  margin-top: 10%;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  margin-top: 2%;
+}
+input {
+  width: 100%;
+}
+.checkbox {
+  display: inline-flex;
+  margin-top: 5%;
+  max-height: 25px;
+  width: 40%;
+}
+span {
+  color: grey;
+  font-size: small;
+  margin-top: 5%;
+}
