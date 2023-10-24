@@ -4,7 +4,7 @@ import './styles.scss';
 interface HeaderProps {
   logo?: string;
   siteName: string;
-
+  loginLink: string;
 }
 
 /**
@@ -12,8 +12,13 @@ interface HeaderProps {
  */
 export const Header = ({
   logo,
-  siteName
+  siteName,
+  loginLink
 }: HeaderProps) => {
+
+  const goToLogin = () => {
+    window.location.href = loginLink;
+  }
   
   return (
     <header className={['header-styled'].join(' ')}>
@@ -26,7 +31,10 @@ export const Header = ({
         </a>
 
         {/* Login section of header */}
-        <Button primary>Log in</Button>
+        <Button
+         primary
+         onClick={goToLogin}
+        >Log in</Button>
 
       </div>
     </header>

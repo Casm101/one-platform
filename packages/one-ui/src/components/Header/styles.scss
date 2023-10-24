@@ -1,3 +1,5 @@
+@import url(../../styles/global.scss);
+
 /* Main Header style */
 .header-styled {
 
@@ -12,11 +14,10 @@
   height: 80px;
 
   border: none;
-  border-radius: .50rem;
 
   padding: 0 2rem;
 
-  background: #FEFFFA;
+  background: #fff;
 
   font-weight: 700;
 
