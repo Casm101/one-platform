@@ -1,0 +1,32 @@
+/* Main KanbanBoard style */
+.kanbantask-styled {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: .5rem;
+
+  padding: .5rem 1rem;
+
+  color: #fff;
+  background: #2D3C5A;
+  border-radius: .5rem;
+
+  cursor: pointer;
+
+  .task-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .1rem;
+
+    .task-id {
+      font-size: .8rem;
+      color: rgb(236, 236, 236);
+    }
+
+    .task-title {
+
+    }
+  }
+}
