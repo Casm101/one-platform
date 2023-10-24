@@ -12,7 +12,11 @@ interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large' | 'full';
+  /**
+   * Should the button occupy full width?
+   */
+  fullWidth?: boolean;
   /**
    * Button contents
    */
@@ -31,15 +35,17 @@ export const Button = ({
   size = 'medium',
   backgroundColor,
   children,
+  fullWidth = false,
   ...props
 }: ButtonProps) => {
   
   const mode = primary ? '--primary' : '--secondary';
+  const width = fullWidth ? '--full' : '';
 
   return (
     <button
       type="button"
-      className={['button-styled', `--${size}`, mode].join(' ')}
+      className={['button-styled', `--${size}`, mode, width].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >
