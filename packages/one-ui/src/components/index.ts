@@ -12,3 +12,4 @@ export * from './ListBox';
 export * from './Modal';
 export * from './Sections/HeroSection';
 export * from './TabGroup';
+export * from './Form';

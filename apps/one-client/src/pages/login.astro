@@ -1,11 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Form } from 'one-ui'
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
+		<Form title="Account Log In" subTitle="PLEASE LOGIN TO CONTINUE TO YOUR ACCOUNT"></Form>
 	</main>
 </Layout>
 
 <style>
+	main {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+		color: #fff;
+		margin-top: 5rem;
+	}
 </style>

@@ -17,6 +17,7 @@ export const Header = ({
 }: HeaderProps) => {
 
   const goToLogin = () => {
+    console.log("Trying to go to ", loginLink)
     window.location.href = loginLink;
   }
   

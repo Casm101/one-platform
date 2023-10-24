@@ -1,4 +1,4 @@
-import { Input } from '..';
+import { Button, Input } from '..';
 import './styles.scss';
 
 interface FormProps {
@@ -30,6 +30,7 @@ export const Form = ({
         <div className="checkbox">
           <input className='checkbox' type="checkbox"></input><span>Remember Me</span>
         </div>
+        <Button fullWidth>Log in</Button>
       </div>
     </div> 
   );
