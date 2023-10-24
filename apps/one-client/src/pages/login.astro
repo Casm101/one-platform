@@ -5,9 +5,25 @@ import { Form } from 'one-ui'
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<Form title="Account Log In" subTitle="PLEASE LOGIN TO CONTINUE TO YOUR ACCOUNT"></Form>
+		<div class="middle">
+			<Form title="Account Log In" subTitle="PLEASE LOGIN TO CONTINUE TO YOUR ACCOUNT"></Form>
+		</div>
 	</main>
 </Layout>
+
+<script>
+	const formSubmits = document.querySelectorAll('button#submit-form');
+
+	formSubmits.forEach((button) => {
+		button.addEventListener('click', () => {
+			console.log("clicked")
+			window.location.href = "/"	
+		})
+	})
+
+
+
+</script>
 
 <style>
 	main {
@@ -15,6 +31,10 @@ import { Form } from 'one-ui'
         flex-direction: column;
         gap: 2rem;
 		color: #fff;
-		margin-top: 5rem;
+		margin-top: 80px;
+		height: 100%;
+	}
+	.middle {
+
 	}
 </style>

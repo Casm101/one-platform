@@ -25,6 +25,8 @@ interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+  id?: string;
 }
 
 /**
@@ -36,18 +38,26 @@ export const Button = ({
   backgroundColor,
   children,
   fullWidth = false,
+  id,
   ...props
 }: ButtonProps) => {
   
   const mode = primary ? '--primary' : '--secondary';
   const width = fullWidth ? '--full' : '';
 
+  const handleClick = (e: any) => {
+    e.preventDefault();
+    console.log("Clicked")
+  }
+
   return (
     <button
+      id={id}
       type="button"
       className={['button-styled', `--${size}`, mode, width].join(' ')}
       style={{ backgroundColor }}
       {...props}
+      onClick={handleClick}
     >
       {children}
     </button>

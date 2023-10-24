@@ -24,6 +24,17 @@ const { title } = Astro.props;
 	</body>
 </html>
 
+<script>
+	const buttons = document.querySelectorAll('button#login-form');
+
+	buttons.forEach((button) => {
+		button.addEventListener('click', () => {
+			console.log("clicked")
+			window.location.href = "/login"	
+		})
+	})
+</script>
+
 <style is:global>
 
 	/* Global styling for site */

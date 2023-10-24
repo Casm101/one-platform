@@ -33,6 +33,7 @@ export const Header = ({
 
         {/* Login section of header */}
         <Button
+         id="login-form"
          primary
          onClick={goToLogin}
         >Log in</Button>

@@ -30,7 +30,7 @@ export const Form = ({
         <div className="checkbox">
           <input className='checkbox' type="checkbox"></input><span>Remember Me</span>
         </div>
-        <Button fullWidth>Log in</Button>
+        <Button fullWidth id='submit-form'>Log in</Button>
       </div>
     </div> 
   );
